@@ -602,9 +602,6 @@ body.modal-open {
         padding-top: 60px;
     }
     .navbar {
-        padding: 0 20px;
-        height: 60px;
-    }.navbar {
     height: 60px;
     padding: 15px 20px;
     }
@@ -612,7 +609,7 @@ body.modal-open {
     display: none;
     flex-direction: column;
     width: 100%;
-    position: absolute; /* Changed from fixed */
+    position: absolute; 
     top: 60px;
     left: 0;
     background-color: var(--background-dark1);
@@ -627,6 +624,16 @@ body.modal-open {
     }
     .hamburger {
     display: flex;
+    flex-direction: column;
+    }
+    .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto; 
+    background-color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    }
     }
     .hamburger.active span:nth-child(2) {
         opacity: 0;
@@ -661,4 +668,3 @@ body.modal-open {
     .modal-gallery-item {
         height: 300px;
     }
-}
