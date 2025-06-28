@@ -400,7 +400,10 @@ document.addEventListener('DOMContentLoaded', () => {
                         { "type": "divider" },
                         { "type": "heading", "text": "Thank You, DJM!" },
                         { "type": "paragraph", "text": "This tour wouldn't have been this smooth and unforgettable without the awesome team from DJM. From the drivers who always kept us safe on the road, to the people who prepared our meals and snacks (always on time and delicious!), to our tour guides who made every destination more meaningful." },
-                        { "type": "paragraph", "text": "Special shoutout to Ate Melai, our tour guide on Day 1, for starting the trip off with good energy and fun facts! And of course, Kuya Enan, who guided us all throughout the rest of the tour—thank you for being so informative, patient, and super accommodating!" }
+                        { "type": "paragraph", "text": "Special shoutout to Ate Melai, our tour guide on Day 1, for starting the trip off with good energy and fun facts! And of course, Kuya Enan, who guided us all throughout the rest of the tour—thank you for being so informative, patient, and super accommodating!" },
+                        { "type": "divider" },
+                        { "type": "heading", "text": "Thank You, CCS Professors!" },
+                        { "type": "paragraph", "text": "I also want to thank our CCS professors — Engr. Marjorie Rojas, Asso. Prof. Salimar Tahil, Mr. Rhamirl Jaafar, and Mr. John Lloyd Edios — for guiding us throughout this tour. Your support, encouragement, and advice made this journey smoother and more meaningful. We truly appreciate the time and effort you put into making this educational tour a memorable and valuable experience for all of us." },
                     ],
                     "conclusion": "This entire tour was more than just an academic requirement—it was a beautiful adventure full of learning, fun, and memories. From visiting amazing tech companies to experiencing the culture, weather, and food of Tagaytay and Baguio—every single day gave me something to remember. I’m incredibly grateful for this opportunity. This tour brought me closer to my classmates and opened my eyes to new possibilities for my future. I’ll always look back at this trip with a big smile on my face."
                 }
