@@ -592,6 +592,9 @@ body.modal-open {
 }
 
 @media (max-width: 768px) {
+     .blog-hero-header {
+        background-attachment: scroll; 
+    }
     .hero-content h1 {
         font-size: 3rem;
     }
