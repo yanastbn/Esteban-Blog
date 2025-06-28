@@ -602,28 +602,31 @@ body.modal-open {
         padding-top: 60px;
     }
     .navbar {
-        height: 60px;
         padding: 0 20px;
+        height: 60px;
+    }.navbar {
+    height: 60px;
+    padding: 15px 20px;
     }
     .nav-links {
-    display: flex; 
-    position: fixed;
-    left: -100%; 
-    top: 60px;
+    display: none;
     flex-direction: column;
-    background-color: var(--background-dark1);
     width: 100%;
-    height: calc(100vh - 60px);
+    position: absolute; /* Changed from fixed */
+    top: 60px;
+    left: 0;
+    background-color: var(--background-dark1);
     text-align: center;
-    transition: left 0.3s ease-in-out; 
-    gap: 0;
     }
     .nav-links.active {
-        left: 0;
+    display: flex;
+    }
+    .nav-links li {
+    margin-bottom: 10px;
+    padding: 0.5rem 0;
     }
     .hamburger {
-        display: flex;
-        flex-direction: column;
+    display: flex;
     }
     .hamburger.active span:nth-child(2) {
         opacity: 0;
